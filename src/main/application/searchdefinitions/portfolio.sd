@@ -32,7 +32,7 @@ search portfolio {
         }
 
         field users type array<string> {
-            indexing: summary
+            indexing: summary | index
             match:word
         }
 
